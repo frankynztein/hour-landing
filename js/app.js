@@ -42,15 +42,15 @@ function setBgGreet() {
   if(hour < 12) {
     // Morning
     greeting.textContent = 'Good morning, ';
-    document.body.style.backgroundImage = "url(../img/morning.jpg)";
+    document.body.style.backgroundImage = "url(./img/morning.jpg)";
   } else if (hour < 19) {
     // Afternoon
     greeting.textContent = 'Good afternoon, ';
-    document.body.style.backgroundImage = "url(../img/afternoon.jpg)";
+    document.body.style.backgroundImage = "url(./img/afternoon.jpg)";
   } else {
     // Evening
     greeting.textContent = 'Good evening, ';
-    document.body.style.backgroundImage = "url(../img/evening.jpg)";
+    document.body.style.backgroundImage = "url(./img/evening.jpg)";
     // document.body.style.color = 'white';
   }
 }
